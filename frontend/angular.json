@@ -76,6 +76,9 @@
             "browserTarget": "angular.io-example:build"
           }
         },
+        "test": {
+          "builder": "@angular-builders/jest:run"
+        },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
