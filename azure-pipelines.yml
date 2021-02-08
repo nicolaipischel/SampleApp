@@ -14,7 +14,7 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  displayName: 'run pipeline'
 
 - task: UseDotNet@2
   displayName: 'Use .NET Core sdk 5.0.100'
